@@ -5,6 +5,7 @@ podemos usar en el proyecto. Cada set está en una sub-carpeta distinta:
 
 * [`pokemon`](./pokemon)
 * [`webdev`](./webdev)
+* [`turma-da-monica`](./turma-da-monica/)
 
 Dentro de cada carpeta encontrarás dos archivos: uno con la extensión `.js` y
 otro `.json`. Ambos archivos contienen la misma data; la diferencia es que el
