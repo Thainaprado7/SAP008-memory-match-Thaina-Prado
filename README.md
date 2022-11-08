@@ -1,4 +1,4 @@
-# Memory Match Game
+# Memory Match Game - Turma da Mônica
 
 ## 1. Definição do Produto
 
@@ -24,4 +24,6 @@ Pensando no grande sucesso que se acumula por decadas, o projeto Memory Match re
 ![img](inicial-click-desktop.png)
 ![img](mobile.png)
 
+## 4. Desenvolvendo o Projeto
+## 5. Ferramentas Utilizadas no Projeto
 
