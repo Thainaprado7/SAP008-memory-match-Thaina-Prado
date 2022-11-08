@@ -1,22 +1,21 @@
-const input = document.querySelector('.login__input');
-const button = document.querySelector('.login__button');
-const form = document.querySelector('.login-form');
+let input = document.querySelector('.login-input');
+let button = document.querySelector('.login-button');
+let form = document.querySelector('.login-form-tdm')
 
-const validateInput = ({ target }) => {
-  if (target.value.length > 2) {
-    button.removeAttribute('disabled');
-    return;
-  }
-
-  button.setAttribute('disabled', '');
+let validateInput = ({target}) => {
+    if (target.value.length > 2) {
+        button.removeAttribute('disabled');
+    } else {
+        button.setAttribute('disabled', '');
+    }
 }
 
-const handlvalidateInputeSubmit = (event) => {
-  event.preventDefault();
-  
-  localStorage.setItem('player', input.value);
-  window.location = 'pages/game.html';
+let handleSubmit = (event) => {
+    event.preventDefault();
+    localStorage.setItem('player', input.value);
+    window.location = 'pages/game.html';
 }
+
 
 input.addEventListener('input', validateInput);
 form.addEventListener('submit', handleSubmit);
